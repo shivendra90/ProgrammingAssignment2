@@ -5,7 +5,7 @@ makeCacheMatrix <- function(x = matrix()){      ## Defining square matix.
         i <- NULL                               ## This is our inverse
         set <- function(y){                     ## The input vector
                 x <<- y                         ## Saving the input vector as x
-                i <<- NULL                      ## Restting inverse to NULL
+                i <<- NULL                      ## Resetting inverse to NULL
         }
         get <- function() x                             ## Return the original value of x
         setInverse <- function(solve) i <<- inverse     ## Assgning cacheinverse (i)  
