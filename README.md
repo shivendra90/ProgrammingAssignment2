@@ -1,4 +1,4 @@
-# Using Cached Functions and Matrices to Perform Large Calculations
+# Readme for cachematrix.R
 
 Performing large calculations through R can be cumbersome and if not speedier than other programming languages like C# or C++, similar to their system runtimes. In fact, R is somewhat rudimentary here, when it comes to system optimisations since its basically a language to carry out statistical or mathematical calculations. With that said, the creators of R never really had in mind the immense calculations its users might need to perform when its first versions in the 1980s and later in 90s came out. Its only in recent times that several techniques and built-in optimisations have been developed over the base structure for several large calculations to be performed as optimally as possible. The emergence of big data and faster, more powerful computing machines have resulted in even more data being generated on a daily basis. The data we have today is incomparable times that we might have had during the 1990s when the internet first became public.
 
